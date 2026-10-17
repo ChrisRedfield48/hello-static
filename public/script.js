@@ -1,4 +1,3 @@
-/* global window, document, requestAnimationFrame */
 
 const canvas = document.getElementById('stars')
 const ctx = canvas.getContext('2d')
