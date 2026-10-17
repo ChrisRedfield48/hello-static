@@ -24,7 +24,7 @@ function createStar() {
     x: (Math.random() - 0.5) * 2000,
     y: (Math.random() - 0.5) * 2000,
     z: Math.random() * 2000 + 1,
-    color: Math.random() > 0.85 ? '#ff2e88' : '#00eaff'
+    color: Math.random() > 0.85 ? '#ff2e88' : '#a855f7'
   }
 }
 
