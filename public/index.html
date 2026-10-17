@@ -4,37 +4,38 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Static</title>
+    <title>3D Stars · Hello Static</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <canvas id="stars" aria-hidden="true"></canvas>
+
     <div class="app">
       <header class="header">
-        <h1>🚀 Hello Static</h1>
-        <p class="subtitle">Статический сайт на HTML + CSS + JS</p>
+        <h1>3D Stars</h1>
+        <p class="subtitle">Интерактивное звёздное поле на HTML + CSS + JS</p>
       </header>
 
       <main>
         <section class="card">
           <h2>О проекте</h2>
           <p>
-            Этот сайт автоматически деплоится на
-            <strong>GitHub Pages</strong> при push в <code>main</code>.
-            Файлы <code>index.html</code>, <code>style.css</code> и
-            <code>script.js</code> уезжают на сервер <strong>как есть</strong> —
-            без сборки.
+            Фон — <strong>800 частиц</strong> в трёхмерном пространстве,
+            отрисованных на <code>canvas</code> с перспективной проекцией.
+            Двигайте мышью — камера поворачивается. Сайт деплоится на
+            <strong>GitHub Pages</strong> через CI/CD.
           </p>
         </section>
 
         <section class="card">
-          <h2>Интерактивный счётчик</h2>
+          <h2>Интерактив</h2>
           <p>Нажатий: <span id="counter">0</span></p>
           <button id="increment" type="button">Увеличить</button>
         </section>
       </main>
 
       <footer class="footer">
-        <p>Deployed with ❤️ to GitHub Pages</p>
+        <p>Deployed with 3D stars to GitHub Pages</p>
       </footer>
     </div>
 
